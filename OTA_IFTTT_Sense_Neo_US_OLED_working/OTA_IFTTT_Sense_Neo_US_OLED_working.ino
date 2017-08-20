@@ -27,11 +27,11 @@ Adafruit_SSD1306 display(OLED_RESET);
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 int delayval = 30; // delay for half a second
 /////Wifi Config
-char ssid[] = "lucky";
+char ssid[] = "yourSSID";
 int status = WL_IDLE_STATUS;     // the Wifi radio's status
-//const char* ssid = "lucky";
-const char* password = "laxmish53";
-#define KEY "h4VW6l_BSVEIKMFMwtvhuBCD9QX7qtE40RnqTOwTyKk"  // Get it from this page https://ifttt.com/services/maker/settings
+//const char* ssid = "yourSSID";
+const char* password = "yourPASS";
+#define KEY "YourKEY"  // Get it from this page https://ifttt.com/services/maker/settings
 #define EVENT_NAME "Nodemcu" // Name of your event name, set when you are creating the applet
 #define EVENT_NAME2 "Activity_detect" // Name of your event name, set when you are creating the applet
 ////for Ultrasonic pins
